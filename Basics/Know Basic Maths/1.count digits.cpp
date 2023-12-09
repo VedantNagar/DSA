@@ -1,3 +1,7 @@
+/* You are given a number n
+Find the number of digits of n that evenly divide n
+ */
+
 int countDigits(int n){
     int count =0;
     int number = n;

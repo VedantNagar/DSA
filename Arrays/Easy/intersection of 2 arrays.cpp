@@ -16,8 +16,6 @@ public:
             }
             else
                 i++;
-            
-
         }
         return ans;
     }
