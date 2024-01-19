@@ -1,4 +1,4 @@
-/*Given an arra of integer numbers, arr[i] represents the no of pages in the i-th book
+/*Given an array of integer numbers, arr[i] represents the no of pages in the i-th book
 There are m students, and task is to allocate all the books to the students.
 . Each student must get one book
 . Each book should be allocated to only one student.*/

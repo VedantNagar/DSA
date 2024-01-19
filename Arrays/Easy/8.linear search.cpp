@@ -4,7 +4,6 @@ int linearSearch(int n, int num, vector<int> &arr)
         if(arr[i]==num){
             return i;
         }
-       
     }
      return -1;
 }
