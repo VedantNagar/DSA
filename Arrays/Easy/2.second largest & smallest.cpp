@@ -31,3 +31,28 @@ vector<int> getSecondOrderElements(int n,vector<int>a) {
     int ssmallest= secondSmallest(a,n);
     return {slargest, ssmallest};
 }
+/* 
+Finding Second Largest:
+
+The function secondLargest takes an array a and its size n.
+It initializes variables largest and slargest to the first element and negative infinity, respectively.
+It iterates through the array, updating largest and slargest based on the values encountered.
+If the current element is greater than the current largest (a[i] > largest), it updates slargest to the current largest and updates largest to the current element.
+If the current element is not the largest but greater than the second-largest (a[i] < largest && a[i] > slargest), it updates slargest to the current element.
+The function returns the second-largest element.
+
+Finding Second Smallest:
+
+The function secondSmallest takes an array a and its size n.
+It initializes variables smallest and ssmallest to the first element and positive infinity, respectively.
+It iterates through the array, updating smallest and ssmallest based on the values encountered.
+If the current element is less than the current smallest (a[i] < smallest), it updates ssmallest to the current smallest and updates smallest to the current element.
+If the current element is not equal to the smallest but less than the second-smallest (a[i] != smallest && a[i] < ssmallest), it updates ssmallest to the current element.
+The function returns the second-smallest element.
+
+Combining Results:
+
+The function getSecondOrderElements takes the array size n and the array a.
+It calls the secondLargest and secondSmallest functions to get the second-largest and second-smallest elements.
+It returns a vector containing these two elements.
+ */
